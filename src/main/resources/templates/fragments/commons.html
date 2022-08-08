@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>	
+  
+	<header th:fragment="block-header (title, pageNumber)">
+		<nav class="navbar navbar-expand-lg bg-light">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" th:href="@{/}">MY APP 3</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link" th:href="@{/}">Index</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" th:href="@{/list}">List</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" th:href="@{/contact}">Contact me</a>
+		        </li>		        
+		      </ul>
+		      <form class="d-flex" role="search">
+		        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		        <button class="btn btn-outline-success" type="submit">Search</button>
+		      </form>
+		    </div>
+		  </div>
+		</nav>	
+		
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1>
+						<span th:text="${title}"></span> - <span th:text="${pageNumber}"></span>
+					</h1>				
+				</div>
+			</div>		
+		</div>			
+		
+	</header> 
+	
+    <footer th:fragment="block-footer" style="background-color: #bb7e56; font-size:30px;text-transform: uppercase;">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col text-center p-2">
+                    This is my footer 3
+                </div>
+            </div>
+
+        </div>
+
+    </footer> 		
+  
+  </body>
+</html>
