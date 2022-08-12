@@ -14,7 +14,7 @@ Impareremo Spring Thymeleaf Layout scrivendo tanto codice insieme e durante lo s
 Tutorial Spring Thymeleaf Layout in 45 mins : il tutorial per imparare Spring Thymeleaf Layout in pochissimo tempo, con meno teoria e più pratica! 
 
 ## Vuoi seguire tutto il tutorial? Eccoti il link dei video! :) 
-https://www.youtube.com/watch?v=gAtYIhXtQLA&t=1s
+https://www.youtube.com/watch?v=gAtYIhXtQLA
 
 Buono studio! :)
 
